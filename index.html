@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form | PSF</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+  
+
+  <h1>Drop us a Feedback</h1>
+	<form action="https://formspree.io/f/xqkjeypp" 
+  method="POST">
+	<div class="row">
+	<div class="input-group">
+	<input type="text" required id="name" name="Name:">
+	<label for="name"><i class="fas fa-user"></i> Your Name</label>
+	</div>
+	
+	<div class="input-group">
+	<input type="text" required id="School" name="School:">
+	<label for="School"><i class="fas fa-school"></i> Your School</label>
+	</div>
+	
+	</div>
+	
+	<div class="radio-btn">
+	<p>Your overall experience:</p>
+  <input type="radio" id="html" name="Overall Experience:" value="A">
+  <label for="html">A</label>
+  <input type="radio" id="css" name="Overall Experience:" value="B">
+  <label for="css">B</label>
+  <input type="radio" id="javascript" name="Overall Experience:" value="C">
+  <label for="javascript">C</label>
+
+	
+	</div>
+	
+	
+	
+	
+	
+	<div class="input-group">
+	<textarea rows="8" id="message" required="" name="Additional Comments:"></textarea>
+	<label for="message"><i class="fas fa-comments"></i> Additional Comments...</label>
+	</div>
+	
+	
+	<button type="submit">SUBMIT <i class="fas fa-paper-plane"></i> </button>
+	
+	
+	</form>
+
+
+
+</div>
+</body>
+</html>
